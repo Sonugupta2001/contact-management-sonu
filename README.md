@@ -71,8 +71,8 @@ npm install
 
 Create a .env file in the root of the backend project with the following configuration (example for MongoDB):
 ```text
-DATABASE_URL=mongodb://localhost:27017/contact-management
-PORT=5000
+DATABASE_URL= <db_url>
+PORT= db_port
 ```
 
 Start the backend server:
@@ -113,7 +113,7 @@ contact-management-system/
 ```
 Frontend: ReactJS, Material UI (MUI), Axios
 Backend: NodeJS, Express
-Database: MongoDB (or MySQL/PostgreSQL depending on your choice)
+Database: PostgreSQL
 API: RESTful API using Express
 State Management: React's useState, useEffect
 ```
