@@ -1,6 +1,6 @@
 # Contact Management System
 
-This is a full-stack **Contact Management System** built with **ReactJS** on the frontend, **NodeJS** (Express) on the backend, and a database of your choice (e.g., MongoDB, PostgreSQL, MySQL) to store contact information.
+This is a full-stack **Contact Management System** built with **ReactJS** on the frontend, **NodeJS (Express)** on the backend, and a database **PostgreSQL** to store contact information.
 
 The system allows users to **add**, **view**, **edit**, and **delete** contact information, with the ability to organize and manage a list of contacts in a user-friendly interface.
 
