@@ -86,3 +86,48 @@ The backend API will be running at
 ```bash
 http://localhost:5000
 ```
+
+
+# Project Structure
+
+```bash
+contact-management-system/
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   ├── services/
+    │   ├── App.js
+    │   └── index.js
+    ├── public/
+    ├── package.json
+    └── .env
+```
+
+# Technolgies Used
+Frontend: ReactJS, Material UI (MUI), Axios
+Backend: NodeJS, Express
+Database: MongoDB (or MySQL/PostgreSQL depending on your choice)
+API: RESTful API using Express
+State Management: React's useState, useEffect
+
+
+# Database Schema
+```sql
+CREATE TABLE contacts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone_number VARCHAR(50),
+    company VARCHAR(255),
+    job_title VARCHAR(255)
+);
+```
