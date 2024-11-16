@@ -15,13 +15,11 @@ The system allows users to **add**, **view**, **edit**, and **delete** contact i
 3. [Project Structure](#project-structure)
 4. [Technologies Used](#technologies-used)
 5. [Database Schema](#database-schema)
-6. [Major Technical Decisions](#major-technical-decisions)
-7. [How the Application Works](#how-the-application-works)
+
 
 ---
 
 ## Project Overview
-
 The **Contact Management System** allows users to store and manage contact details such as:
 
 - **First Name**
@@ -112,11 +110,13 @@ contact-management-system/
 ```
 
 # Technolgies Used
+```
 Frontend: ReactJS, Material UI (MUI), Axios
 Backend: NodeJS, Express
 Database: MongoDB (or MySQL/PostgreSQL depending on your choice)
 API: RESTful API using Express
 State Management: React's useState, useEffect
+```
 
 
 # Database Schema
